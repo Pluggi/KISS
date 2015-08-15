@@ -51,7 +51,7 @@
     <string name="main_clear">Vider le texte</string>
     <string name="main_kiss">Afficher les favoris et la liste d\'applications</string>
     <string name="main_kiss_back">Afficher l\'historique</string>
-    <string name="reset_desc">Vider tout l\'historique KISS</string>
+    <string name="reset_desc">Vider l\'historique KISS (%d éléments)</string>
     <string name="reset_name">Vider l\'historique</string>
     <string name="keyboard_desc">Toujours afficher le clavier au lancement</string>
     <string name="keyboard_name">Afficher le clavier</string>

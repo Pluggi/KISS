@@ -51,7 +51,7 @@
     <string name="main_clear">Очисти текст</string>
     <string name="main_kiss">Приказуј списак апликација и омиљено</string>
     <string name="main_kiss_back">Приказуј историјат</string>
-    <string name="reset_desc">Чишћење историјат КИС покретача</string>
+    <string name="reset_desc">Ресет своју историју КISS (%d елементс)</string>
     <string name="reset_name">Ресетуј историјат</string>
     <string name="keyboard_desc">Увек приказуј тастатуру по покретању</string>
     <string name="keyboard_name">Приказуј тастатуру</string>

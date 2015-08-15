@@ -34,4 +34,14 @@ public class SettingsActivity extends PreferenceActivity implements
         // We need to finish the Activity now, else the user may get back to the settings screen the next time he'll press home.
         finish();
     }
+
+    private void fixSummaries(SharedPreferences prefs) {
+        int historyLength = KissApplication.getDataHandler(this).getHistoryLength(this);
+        findPreference("reset").setSummary(
+            String.format(getString(R.string.reset_desc), historyLength));
+
+        findPreference("auto-spellcheck").setSummary(
+            String.format(getString(R.string.autospellcheck_desc),
+                prefs.getInt("auto-spellcheck", 5)));
+    }
 }
